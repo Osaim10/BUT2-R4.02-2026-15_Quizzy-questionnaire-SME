@@ -1,5 +1,6 @@
 package org.univ_paris8.iut.qdev.tp2026.gr15.entities.dto;
 
+import org.univ_paris8.iut.qdev.tp2026.gr15.utils.enums.DifficulteEnum;
 import org.univ_paris8.iut.qdev.tp2026.gr15.utils.enums.LanguesEnum;
 
 public class QuestionDTO {
@@ -8,8 +9,8 @@ public class QuestionDTO {
     private LanguesEnum langue;
     private String libelle, reponse, explication, source;
 
-    public QuestionDTO(int diff, LanguesEnum lg, String lib, String rep, String expl, String src) {
-        this.difficulte = diff;
+    public QuestionDTO(DifficulteEnum diff, LanguesEnum lg, String lib, String rep, String expl, String src) {
+        this.difficulte = diff.ordinal()+1;
         this.langue = lg;
         this.libelle = lib;
         this.reponse = rep;
