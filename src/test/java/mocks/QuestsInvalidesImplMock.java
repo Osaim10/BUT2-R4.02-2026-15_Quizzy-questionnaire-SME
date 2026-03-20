@@ -6,7 +6,7 @@ import org.univ_paris8.iut.qdev.tp2026.gr15.utils.exceptions.DonneesCorrompuesEx
 
 import java.util.ArrayList;
 
-public class QuestionnairesInvalidesImplMock implements IQuestionnaireServices {
+public class QuestsInvalidesImplMock implements IQuestionnaireServices {
 
     @Override
     public ArrayList<QuestionnaireDTO> chargerQuestionnaires(String chemin) throws DonneesCorrompuesException {

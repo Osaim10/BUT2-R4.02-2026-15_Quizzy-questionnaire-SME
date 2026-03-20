@@ -6,7 +6,7 @@ import org.univ_paris8.iut.qdev.tp2026.gr15.utils.exceptions.CSVInexistantExcept
 
 import java.util.ArrayList;
 
-public class QuestionnairesInexistantsImplMock implements IQuestionnaireServices {
+public class QuestsInexistantsImplMock implements IQuestionnaireServices {
 
     @Override
     public ArrayList<QuestionnaireDTO> chargerQuestionnaires(String chemin) throws CSVInexistantException {

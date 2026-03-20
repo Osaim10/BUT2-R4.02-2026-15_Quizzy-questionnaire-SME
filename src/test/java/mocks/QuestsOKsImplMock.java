@@ -5,7 +5,7 @@ import org.univ_paris8.iut.qdev.tp2026.gr15.services.interfaces.IQuestionnaireSe
 import java.util.ArrayList;
 import java.util.List;
 
-public class QuestionnairesOKsImplMock implements IQuestionnaireServices {
+public class QuestsOKsImplMock implements IQuestionnaireServices {
 
     @Override
     public ArrayList<QuestionnaireDTO> chargerQuestionnaires(String chemin) {
