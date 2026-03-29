@@ -15,7 +15,10 @@ public class QuestionnaireDTO {
         this.theme = theme;
 
         identifiant++;
+    }
 
+    public void ajouterQuestion(QuestionDTO question) {
+        this.questions.add(question);
     }
 
     public String getNom() {
